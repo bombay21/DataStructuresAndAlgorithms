@@ -24,4 +24,4 @@ let isAlphaNumeric = (char) => {
   return true;
 };
 
-console.log(charCount("hello Aloha Hawaii!"))
+console.log(charCount("hello Aloha Hawaii7!"))
