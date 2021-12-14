@@ -1,9 +1,7 @@
 function additionOfRangeWithRecursion(num){
-    if(num === 1) return 1
-    let i = num
-    i = i - 1
-    return num + additionOfRangeWithRecursion(i)
+    if(num === 0) return 0
+    return num + additionOfRangeWithRecursion(num - 1)
 }
 
-console.log(additionOfRangeWithRecursion(10));
+console.log(additionOfRangeWithRecursion(2));
 //additionOfRangeWithRecursion.js
