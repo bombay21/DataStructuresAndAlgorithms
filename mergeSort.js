@@ -1,5 +1,5 @@
-// Time complexity of O(nlogn)
-// Space complexity of O(n)
+// Time complexity => O(nlogn)
+// Space complexity => O(n)
 
 function mergeSort(arr){
     if(arr.length <= 1) return arr
